@@ -1,0 +1,68 @@
+body {
+	background-color: hsl(0, 0%, 98%);
+	font-family: "Poppins";
+}
+.container {
+	width: 75%;
+	max-width: 600px;
+	margin: auto;
+}
+header,
+.card {
+	color: hsl(234, 12%, 34%);
+	text-align: center;
+	margin-bottom: 50px;
+}
+h1 {
+	font-weight: 200;
+	font-size: 2.2rem;
+}
+h2 {
+	font-size: 2rem;
+}
+
+.card {
+	border-block-start: 4px solid;
+	border-radius: 4px; /* make the borders round */
+	box-shadow: 0px 15px 30px -11px hsl(229, 6%, 66%);
+	padding: 3px 14px 21px 28px;
+	text-align: left;
+	margin-bottom: 66px;
+}
+.card h3 {
+	font-size: 1.6rem;
+	margin-bottom: -10px;
+}
+.supervisor {
+	border-block-start-color: hsl(180, 62%, 55%);
+}
+
+.team {
+	border-block-start-color: hsl(0, 78%, 62%);
+}
+
+.karma {
+	border-block-start-color: hsl(34, 97%, 64%);
+}
+
+.calculator {
+	border-block-start-color: hsl(212, 86%, 64%);
+}
+
+.icon {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+	.felx-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+	}
+	.container {
+		max-width: 100%;
+	}
+}
